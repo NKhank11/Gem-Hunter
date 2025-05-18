@@ -1,0 +1,32 @@
+=== KẾT QUẢ CÁC THUẬT TOÁN ===
+
+--- PySAT ---
+2, T, 2, T, 3, T, G, G, G, T, G
+T, 3, G, G, 4, T, G, T, G, G, 3
+G, T, G, 1, T, G, G, 2, 4, T, T
+G, G, 1, G, G, G, G, G, T, T, 4
+T, G, G, 1, 2, T, T, G, G, 5, T
+2, G, G, T, G, 3, G, 2, G, T, T
+T, G, G, T, 3, T, 2, G, T, T, T
+G, 1, 1, G, G, G, T, 4, G, G, 2
+G, G, G, 1, 2, T, 5, T, T, G, G
+G, T, G, G, T, 6, T, T, 5, T, T
+G, T, 2, 2, T, T, T, G, T, 3, G
+Thời gian chạy: 0.0020 giây
+
+--- Backtracking ---
+2, T, 2, T, 3, T, T, T, T, T, G
+T, 3, G, G, 4, T, G, T, T, G, 3
+T, G, G, 1, T, G, G, 2, 4, T, T
+T, T, 1, G, G, T, G, G, G, T, 4
+T, G, G, 1, 2, G, T, G, T, 5, T
+2, T, G, G, T, 3, G, 2, G, T, T
+G, G, G, T, 3, T, 2, G, G, T, T
+T, 1, 1, G, G, G, T, 4, T, G, 2
+G, G, G, 1, 2, T, 5, T, T, G, G
+T, T, G, G, T, 6, T, T, 5, T, T
+T, T, 2, 2, T, T, T, T, G, 3, T
+Thời gian chạy: 3.9061 giây
+
+--- Brute-force ---
+Thời gian chạy: Quá 600 giây - thuật toán đã dừng

@@ -1,0 +1,25 @@
+=== KẾT QUẢ CÁC THUẬT TOÁN ===
+
+--- PySAT ---
+G, T, 2, 2, T
+2, G, G, T, G
+T, G, G, T, 3
+T, 2, G, T, 3
+1, G, G, T, G
+Thời gian chạy: 0.0015 giây
+
+--- Backtracking ---
+T, T, 2, 2, T
+2, G, G, T, G
+G, G, T, T, 3
+T, 2, G, T, 3
+1, G, G, T, G
+Thời gian chạy: 0.0010 giây
+
+--- Brute-force ---
+G, G, 2, 2, G
+2, T, G, T, T
+G, T, G, G, 3
+G, 2, G, T, 3
+1, T, G, T, T
+Thời gian chạy: 0.2582 giây
